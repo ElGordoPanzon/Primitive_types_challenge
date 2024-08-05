@@ -4,5 +4,6 @@ public class Numbers {
         short shortvalue = 50;
         int intvalue = 60;
         long longvalue = 80000 - 5 * (bytevalue + shortvalue + intvalue);
+        System.out.println (longvalue);
     }
 }
